@@ -1,6 +1,6 @@
 <?php
 
-namespace dmalachenko\fileUpload\actions;
+namespace dmalchenko\fileUpload\actions;
 
 use Yii;
 use yii\base\Action;
@@ -17,23 +17,16 @@ use yii\web\UploadedFile;
  *
  * UploadAction for images and files.
  *
+ * forked lav45/yii2-file-upload-module
+ *
  * Usage:
  *
  * ```php
  * public function actions()
  * {
  *     return [
- *         'upload-image' => [
- *             'class' => 'lav45\fileUpload\actions\UploadAction',
- *             'url' => '@web/assets/upload',
- *             'path' => '@webroot/assets/upload',
- *             'validatorOptions' => [
- *                 'maxWidth' => 1000,
- *                 'maxHeight' => 1000
- *             ]
- *         ],
- *         'file-upload' => [
- *             'class' => 'lav45\fileUpload\actions\UploadAction',
+ *         'froala-upload' => [
+ *             'class' => 'dmalchenko\fileUpload\actions\FroalaUploadAction',
  *             'url' => '/statics',
  *             'path' => '@webroot/statics',
  *             'uploadOnlyImage' => false,
