@@ -41,7 +41,7 @@ use yii\web\UploadedFile;
 class FroalaUploadAction extends Action
 {
     /**
-     * @var string Variable's name that Imperavi Redactor sent upon image/file upload.
+     * @var string Variable's name that Froala editor sent upon image/file upload.
      */
     public $uploadParam = 'file';
     /**
