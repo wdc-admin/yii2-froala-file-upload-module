@@ -14,11 +14,13 @@ Either run
 1.add repository in composer.json
 
 ```
-"repositories": [ ...
-                            {
-                                "type": "git",
-                                "url": "https://github.com/wdc-admin/yii2-froala-file-upload-module.git"
-                            }
+"repositories": [ 
+       ...
+       {
+         "type": "git",
+         "url": "https://github.com/wdc-admin/yii2-froala-file-upload-module.git"
+       }
+       ...
  ]
 ```
         
@@ -59,7 +61,7 @@ class PageController extends Controller
     {
         return [
             'upload' => [
-                'class' => UploadAction::className(),
+                'class' => FroalaUploadAction::className(),
                 'path' => Event::getUploadDir(), //path to uploads
                 'url' => Event::getUploadUrl(), //url path for get files
                 //'uploadOnlyImage' => false,
