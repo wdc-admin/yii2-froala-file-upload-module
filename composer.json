@@ -1,0 +1,45 @@
+{
+    "name": "dmalchenko/yii2-froala-file-upload-module",
+    "description": "This is Yii2 extension for the upload files from froala redactor",
+    "keywords": [
+        "yii2",
+        "extension",
+        "behavior",
+        "widget",
+        "upload",
+        "froala"
+    ],
+    "homepage": "https://github.com/dmalchenko/yii2-file-upload-module",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexey Loban",
+            "email": "lav451@gmail.com"
+        },
+        {
+            "name": "Malchenko Dmitriy",
+            "email": "dmalchenko@gurtam.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.0.*",
+        "bower-asset/blueimp-file-upload": "9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dmalchenko\\fileUpload\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
