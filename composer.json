@@ -1,5 +1,5 @@
 {
-    "name": "dmalchenko/yii2-froala-file-upload-module",
+    "name": "wdc/yii2-froala-file-upload-module",
     "description": "This is Yii2 extension for the upload files from froala redactor",
     "keywords": [
         "yii2",
@@ -9,7 +9,7 @@
         "upload",
         "froala"
     ],
-    "homepage": "https://github.com/dmalchenko/yii2-file-upload-module",
+    "homepage": "https://github.com/wdc-admin/yii2-froala-file-upload-module",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
@@ -19,13 +19,13 @@
         },
         {
             "name": "Malchenko Dmitriy",
-            "email": "dmalchenko@gurtam.com"
+            "email": "dmim@gurtam.com"
         }
     ],
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
+            "type": "git",
+            "url": "https://github.com/wdc-admin/yii2-froala-file-upload-module.git"
         }
     ],
     "require": {
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dmalchenko\\fileUpload\\": "src"
+            "wdc\\fileUpload\\": "src"
         }
     },
     "extra": {

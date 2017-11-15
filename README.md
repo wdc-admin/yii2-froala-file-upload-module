@@ -26,13 +26,13 @@ Either run
         
 2.run        
 ```
-~$ composer require --prefer-dist dmalchenko/yii2-froala-file-upload-module
+~$ composer require --prefer-dist wdc/yii2-froala-file-upload-module
 ```
 
 or add
 
 ```
-"dmalchenko/yii2-froala-file-upload-module": "^0.1"
+"wdc/yii2-froala-file-upload-module": "^0.1"
 ```
 
 to the require section of your `composer.json` file.
@@ -53,7 +53,7 @@ return [
 
 Add action to the main controller
 ```php
-use dmalchenko\fileUpload\actions\FroalaUploadAction;
+use wdc\fileUpload\actions\FroalaUploadAction;
  
 class PageController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace dmalchenko\fileUpload\actions;
+namespace wdc\fileUpload\actions;
 
 use Yii;
 use yii\base\Action;
@@ -26,7 +26,7 @@ use yii\web\UploadedFile;
  * {
  *     return [
  *         'froala-upload' => [
- *             'class' => 'dmalchenko\fileUpload\actions\FroalaUploadAction',
+ *             'class' => 'wdc\fileUpload\actions\FroalaUploadAction',
  *             'url' => '/statics',
  *             'path' => '@webroot/statics',
  *             'uploadOnlyImage' => false,
